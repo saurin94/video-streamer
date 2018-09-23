@@ -7,9 +7,7 @@ import VideoList from "./components/video_list";
 import VideoDetails from "./components/video_detail";
 import YouTubeSearch from 'youtube-api-search';
 
-var API_KEY = process.env.API_KEY;
-console.log(API_KEY);
-
+var API_KEY = process.env.REACT_APP_API_KEY;
 
 class App extends Component {
     constructor(props) {
