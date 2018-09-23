@@ -7,7 +7,7 @@ import VideoList from "./components/video_list";
 import VideoDetails from "./components/video_detail";
 import YouTubeSearch from 'youtube-api-search';
 
-const API_KEY = process.env.API_KEY;
+var API_KEY = process.env.API_KEY;
 console.log(API_KEY);
 
 
