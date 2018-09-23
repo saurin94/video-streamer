@@ -46,7 +46,7 @@ class App extends Component {
                         <div className="col-sm-2"></div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-8 ml-3 mt-2">
+                        <div className="col-sm-8 ml-3 mt-2 col-11">
                             <VideoDetails video={this.state.selectedVideo}/>
                         </div>
                         <div className="col-sm-3">
