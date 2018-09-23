@@ -15,7 +15,7 @@ const VideoList = (props) => {
     return (
 
             <div className="row">
-                <ul className="list-group-flush">
+                <ul className="list-group-flush col-12">
                     {videoItems}
                 </ul>
             </div>
